@@ -1,0 +1,100 @@
+
+html, body {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  background-color: #868686;
+}
+
+main {
+    background-color: #ccc;
+}
+
+header {
+    height: 120px;
+}
+
+.tituluacont {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+.tituluaimg {
+  max-width: 100%;
+  padding: 20px;
+  display: block;
+}
+
+.content{
+  background-color: #ccc;
+  display: flex;
+  align-self: stretch;
+  height: 46em;
+  flex-direction: row;
+}
+
+.columna1 {
+  align-self: flex-start;
+}
+
+.recomendatorimg {
+}
+
+.columna2 {
+  justify-content: center;
+  align-self: center;
+}
+
+.textua {
+  padding: 10px;
+  max-width: 650px;
+  font-family: sans-serif;
+}
+
+.botoia {
+  background-color: #008CBA;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  padding: 50px 250px;
+  text-align: center;
+  display: inline-block;
+  font-size: 40px;
+  
+
+}
+
+.botoia:hover{
+  background-color: #2e68a3;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.columna3 {
+  align-self: flex-end;
+}
+
+.bideua {
+
+}
+
+.footer {
+  font-family: sans-serif;
+  font-size: 12px;
+  height: 41px;
+  background-color: #6c7073;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  align-items: flex-end;
+
+}

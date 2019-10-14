@@ -1,0 +1,268 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  
+  flex-flow: column nowrap;
+  align-items: stretch;
+  background: #868686;
+}
+
+main {
+  background-color: #ccc;
+}
+
+header {
+  height: 100px;
+}
+
+.tituluacont {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
+
+.tituluaimg {
+  max-width: 100%;
+  max-height: 80%;
+  padding: 10px;
+  display: block;
+}
+
+.content{
+  display: flex;
+  height: 52em;
+  background-color: #ccc;
+  justify-content: center;
+}
+
+.footer {
+  font-family: sans-serif;
+  font-size: 12px;
+  height: 4em;
+  background-color: #6c7073;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  align-items: flex-end;
+  
+}
+/* Hau index.html kua */
+.columna1 {
+  align-self: center;
+  margin-right: 10em;
+  max-width: 12em;
+  margin-left: 4em;
+}
+
+.recomendatorimg {
+  display: block;
+}
+
+.columna2 {
+  align-self: flex-start;
+  justify-content: center;
+  margin-top: 10em;
+  flex-grow: 1;
+  margin-left: 9em;
+}
+
+.textua {
+  padding: 10px;
+  max-width: 670px;
+  font-family: 'B612', sans-serif;
+  justify-content: center;
+  text-align: justify;
+}
+
+.botoia {
+  background-color: #008CBA;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  padding: 15px 330px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 10em;
+}
+
+.botoia:hover{
+  background-color: #2e68a3;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.columna3 {
+  align-items: center;
+  justify-content: center;
+}
+
+.bideua {
+  width: 560px;
+  height: 315px;
+  border: 2px solid #000000;
+  border-radius: 1px;
+  margin-top: 11em;
+  margin-right: 2em;
+}
+
+/* Hau pcmovil.html kua */
+
+.aukerador {
+  display: flex;
+  flex-flow: column nowrap;
+}
+
+.aukeratitulo {
+  height: 7em;
+  margin-left: 3em;
+  padding: 20px;
+  font-size: 36px;
+  font-family: 'B612', sans-serif;
+}
+
+.aukerak {
+  display: flex;
+  flex-flow: row nowrap;
+}
+
+.aukera1 {
+  display: flex;
+  flex-flow: column nowrap;
+  margin-left: 100px;
+  margin-right: 10  0px;
+}
+
+.aukera2 {
+  display: flex;
+  flex-flow: column nowrap;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.aukera1botoia {
+  background-color: #008CBA;
+  border: 5px solid #008CBA;
+  font-size: 28px;
+  color: #FFFFFF;
+  width: 300px;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  font-family: 'B612', sans-serif;
+}
+
+.aukera2botoia {
+  background-color: #008CBA;
+  border: 5px solid #008CBA;
+  font-size: 28px;
+  color: #FFFFFF;
+  width: 300px;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  font-family: 'B612', sans-serif;
+}
+
+.aukera1img {
+  width: 300px;
+  height: 225px;
+  border: 5px solid #008CBA;
+  background-image: url(img/portatila.png);
+}
+
+.aukera2img {
+  width: 300px;
+  height: 225px;
+  border: 5px solid #008CBA;
+  background-image: url(img/movila.png);
+}
+
+
+@media screen and (min-resolution: 120dpi){
+  body {transform: scale(0.8);transform-origin:top left;width: 125%;height: 125%;}
+  
+}
+
+@media (min-width: 767px) and (max-width: 1280px) {
+  .columna2 {
+    align-self: flex-start;
+    justify-content: center;
+    margin-top: 4em;
+    margin-left: 0em;
+  }
+  .botoia {
+    background-color: #008CBA;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    padding: 15px 350px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 10em;
+  }
+  .textua {
+    max-width: 700px;
+  }
+  .columna3 {
+    display: none;
+    
+  }
+  
+  .bideua {
+    display: none;
+  }
+  .columna1 {
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .columna1 {
+    display: none;
+  }
+  
+  .columna3 {
+    visibility: hidden;
+  }
+  
+  .columna2 {
+    margin-left: 32em;
+    margin-top: 5em;
+  }
+  
+  .header {
+   height: 50px; 
+  }
+  
+  .textua {
+    max-width: 550px;
+    align-self: center;
+    justify-content: center;
+    margin-top: 2em;
+    margin-left: 0em;
+  }
+  .botoia {
+    background-color: #008CBA;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    padding: 15px 200px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 3em;
+  }
+}
+@media (max-width: 481px) {
+  body {
+    visibility: hidden;
+  }
+}
